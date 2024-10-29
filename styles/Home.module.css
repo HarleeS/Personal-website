@@ -1,0 +1,33 @@
+/* styles/Home.module.css */
+
+.container {
+  background-color: #1e1e2f; /* Dark background for a tech/security feel */
+  color: #cfd2dc; /* Light gray for contrast */
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for depth */
+}
+
+.title {
+  color: #00cc66; /* Cybersecurity green */
+  font-weight: 600;
+}
+
+.portfolioLink {
+  color: #00bfff; /* Bright cyan for links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.portfolioLink:hover {
+  color: #00cc66; /* Match hover color with cybersecurity green */
+}
+
+.ul {
+  list-style-type: square;
+  color: #cfd2dc; /* Light gray for list items */
+  padding-left: 20px;
+}

@@ -1,0 +1,37 @@
+/* styles/Contact.module.css */
+
+.container {
+  background-color: #1e1e2f; /* Dark background for cyber feel */
+  color: #cfd2dc; /* Light gray for text */
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
+}
+
+.title {
+  color: #00cc66; /* Cybersecurity green */
+  font-weight: 600;
+}
+
+.contactList {
+  list-style-type: none;
+  padding-left: 0;
+  color: #cfd2dc;
+}
+
+.contactList li {
+  margin: 0.5rem 0;
+}
+
+.contactLink {
+  color: #00bfff; /* Bright cyan for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contactLink:hover {
+  color: #00cc66; /* Cybersecurity green on hover */
+}

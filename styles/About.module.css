@@ -1,0 +1,29 @@
+/* styles/About.module.css */
+
+.container {
+  background-color: #1e1e2f; /* Dark, cyber-themed background */
+  color: #cfd2dc; /* Light gray text for readability */
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+}
+
+.title {
+  color: #00cc66; /* Cybersecurity green for titles */
+  font-weight: 600;
+}
+
+.ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #cfd2dc; /* Consistent light gray for text */
+}
+
+.ul li {
+  margin: 0.5rem 0;
+}
+
+  
